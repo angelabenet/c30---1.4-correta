@@ -5,7 +5,7 @@ const Constraint = Matter.Constraint;
 
 var engine, world, backgroundImg;
 var canvas, angle, tower, ground, cannon;
-//crie uma matriz vazia
+
 
 var balls = [];
 
@@ -43,10 +43,6 @@ function draw() {
 
   //crie um laço de repetição
 
-  for (var i = 0 ; i<balls.length;i++){
-
-    showCannonBalls(balls[i], i);
-  }
 
   cannon.display();
   tower.display();
